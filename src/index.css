@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-[#111315]
+}
+
+nav a.active {
+  @apply p-2 bg-[#6F757C] rounded-md;
+}
